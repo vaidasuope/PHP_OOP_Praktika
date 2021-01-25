@@ -18,11 +18,13 @@ use Vehicle\Motorcycle;
 
 $vehicle = new Vehicle("Audi", "Q7");
 //print_r($vehicle);
-$vehicle ->addData(15000, "2t", "Yes", "2.0", "220 km/h", "Audi is made in Germany", 7);
 
 $car = new Car("Ford", "Mondeo", "Diesel");
+$car->addData(15000, "2t", "Yes", "2.0", "220 km/h", "Audi is made in Germany", 5);
 $bicycle = new Bicycle("Corratec", "Allroad", "City");
+$bicycle->addData(500, "10kg", "No", "No", "50 km/h", "Made in Italy", 1);
 $motorcycle = new Motorcycle("Honda", "CBR500R ABS", "2 wheels");
+$motorcycle->addData(5000, "500kg", "Yes", "1.7", "180 km/h", "Made in Japan", 2);
 
 echo "<table class='table'> 
 <tr>
