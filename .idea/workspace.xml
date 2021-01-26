@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f9884ec-ed5f-42c2-93ea-9142290c4257" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php_OOP_praktika.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_OOP_praktika.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.view.php" afterDir="false" />
     </list>
@@ -11,7 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -32,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_OOP" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -45,7 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611597349885</updated>
       <workItem from="1611597351000" duration="4921000" />
-      <workItem from="1611606861875" duration="1072000" />
+      <workItem from="1611606861875" duration="1134000" />
+      <workItem from="1611642760090" duration="3116000" />
     </task>
     <servers />
   </component>
@@ -53,10 +53,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="896" y="336" key="NewPhpFileDialog" timestamp="1611597486005">
+    <state x="159" y="173" key="FileChooserDialogImpl" timestamp="1611644120386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="896" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1611597486005" />
+    <state x="159" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611644120386" />
+    <state x="896" y="336" key="NewPhpFileDialog" timestamp="1611642857826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="896" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1611642857826" />
     <state x="717" y="189" key="run.anything.popup" timestamp="1611597470791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

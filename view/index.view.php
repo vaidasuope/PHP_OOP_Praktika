@@ -11,12 +11,12 @@
 <div class="container mt-5">
 <?php
 
-use Vehicle\Vehicle;
 use Vehicle\Car;
 use Vehicle\Bicycle;
 use Vehicle\Motorcycle;
+use Vehicle\Show;
 
-$vehicle = new Vehicle("Audi", "Q7");
+//$vehicle = new Vehicle("Audi", "Q7");
 //print_r($vehicle);
 
 $car = new Car("Ford", "Mondeo", "Diesel");
@@ -40,7 +40,17 @@ echo "<table class='table'>
 <th>Specific property</th>
 </tr>
 <tr></tr>";
-foreach ($vehicle->getData() as $value){
+
+//Show::ShowData($vehicle->getData());
+//echo "<tr></tr>";
+Show::ShowData($car->getData());
+echo "<tr></tr>";
+Show::ShowData($bicycle->getData());
+echo "<tr></tr>";
+Show::ShowData($motorcycle->getData());
+
+
+/*foreach ($vehicle->getData() as $value){
     echo "<td>$value</td>";
 }
 echo "<tr></tr>";
@@ -55,6 +65,7 @@ echo "<tr></tr>";
 foreach ($motorcycle->getData() as $value){
     echo "<td>$value</td>";
 }
+*/
 echo "</table>";
 ?>
 
